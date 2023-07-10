@@ -1,0 +1,278 @@
+/*
+
+
+
+Main header and bodyyyyy
+
+
+
+*/
+
+html, body 
+{
+    margin: 0;
+    padding: 0;
+    background-color: #363636;
+}
+
+.Main-Header
+{
+    height: 45px;
+    width: 98.7%;
+    background-color: #1B1B1B;
+    padding: 10px;
+    position: static;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
+
+.Liam-Logo
+{
+    position: relative;
+    width: 45px;
+}
+
+.H-Link
+{
+    position: absolute;
+    top: 22px;
+}
+
+a:link
+{
+color: white;
+}
+
+a:visited
+{
+    color: grey;
+}
+
+
+
+/* 
+
+MAIN SHARED CLASSES
+
+*/
+
+
+
+.Best
+{
+    background-color: inherit;
+    padding-bottom: 90px;
+}
+.Offer-Border
+{
+    background-color: #5D5D5D;
+    height: 550px;
+    width: 421px;
+    border-radius: 20px;
+}
+
+.Offer
+{
+width: 392px;
+z-index: 1;
+border-radius: 10px ;
+}
+
+.Offer-Head
+{
+background-color: #5D5D5D;
+height: 30px;
+width: 230px;
+padding-top: 5px;
+font-size: 20px;
+font-weight: 200;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border-radius: 10px;
+}
+
+.Offer-Desc
+{
+    background-color: #5D5D5D;
+    height: 91.8%;
+    width: 230px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+
+
+/*
+
+
+Section 1 {BEST OFFER}
+
+
+
+*/
+
+
+
+.Sign 
+{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 2px;
+    position: relative;
+}
+
+.Sign::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    width: 300px;
+    height: 2px;
+    left: 40%;
+    background-color: black;
+  }
+
+.Best-Offer-Border
+{
+    top: 20px;
+    position: relative;
+    left: 6%;
+}
+
+.Best-Offer
+{
+position: absolute;
+top: 14px;
+left: 14px;
+}
+
+.Best-Offer-Head
+{
+    position: absolute;
+    left: 104%;
+    text-align: center;
+}
+
+.Best-Offer-Desc
+{
+    position: absolute;
+    top: 45px;
+    left: 104%;
+}
+
+.Item1
+{
+    height: 225px;
+    width: 225px;
+    position: absolute;
+    right: -730px;
+
+}
+.Item2
+{
+    height: 225px;
+    width: 225px;
+    position: absolute;
+    right: -955.4px;
+}
+.Item3
+{
+    height: 325px;
+    width: 450px;
+    position: absolute;
+    top: 225px;
+    right: -955.4px;
+}
+
+
+
+/*
+
+SECTION 2 (LIMITED OFFER)
+
+*/
+
+
+
+.Limited
+{
+    background-color: #1B1B1B;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.Limited-Offer-Border
+{
+    background-color: #5D5D5D;
+    position: relative;
+    top: 10px;
+    left: 800px;
+}
+
+.L-Item1
+{
+    height: 225px;
+    width: 225px;
+    position: absolute;
+    left: -700px;
+
+}
+.L-Item2
+{
+    height: 225px;
+    width: 225px;
+    position: absolute;
+    left: -475px;
+}
+.L-Item3
+{
+    height: 325px;
+    width: 450px;
+    position: absolute;
+    top: 225px;
+    left: -700px;
+}
+
+
+
+/*
+
+
+
+Footerrrrrrr
+
+
+
+*/
+
+
+
+.footer
+{
+    display: flex;
+    align-items: center;
+}
+
+#insta-logo
+{
+    height: 44px;
+    width: 44px;
+}
+
+.footer-logos
+{
+    height: 10;
+    width: 40px;
+    padding: 10px;
+}
+
+.Address
+{
+    padding-left: 545px;
+}
+
+.TM
+{
+    padding-left: 545px;
+}
+
